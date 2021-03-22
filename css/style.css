@@ -402,7 +402,7 @@ html {
           box-sizing: border-box;
   margin-bottom: 100px;
   padding: 20px 20px;
-  height: 370px;
+  height: 340px;
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   border-radius: 20px;
@@ -461,7 +461,7 @@ html {
 
 .works-inner-item p {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   text-align: left;
 }
@@ -612,7 +612,7 @@ html {
 .services-inner-item {
   text-align: center;
   width: 350px;
-  height: 470px;
+  height: 440px;
   padding: 25px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -637,7 +637,7 @@ html {
 }
 
 .services-inner-item h3 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   font-weight: bold;
   text-align: center;
@@ -645,7 +645,7 @@ html {
 }
 
 .services-inner-item p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   text-align: center;
   margin-top: 10px;
@@ -755,7 +755,7 @@ html {
 }
 
 .reasons-inner-item h3 {
-  font-size: 18;
+  font-size: 16px;
   line-height: 1.4;
   font-weight: bold;
   margin-top: 20px;
@@ -763,7 +763,7 @@ html {
 }
 
 .reasons-inner-item p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   margin-top: 10px;
 }
@@ -819,9 +819,9 @@ html {
 .contacts-first-item {
   position: relative;
   z-index: 2;
-  height: 330px;
-  width: 460px;
-  padding: 30px 20px 0 20px;
+  height: 300px;
+  width: 400px;
+  padding: 30px 20px 30px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #55a37a;
@@ -838,7 +838,7 @@ html {
   content: '';
   position: absolute;
   top: 50%;
-  right: -110%;
+  right: -90%;
   background-color: #55a37a;
   width: 110%;
   height: 40px;
@@ -851,13 +851,13 @@ html {
 }
 
 .contacts-first-item span i {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .contacts-first-item h3 {
   display: inline-block;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   margin-left: 25px;
   margin-bottom: 15px;
@@ -866,7 +866,7 @@ html {
 .contacts-first-item a,
 .contacts-first-item p {
   display: block;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
 }
 
@@ -951,7 +951,7 @@ html {
 }
 
 .footer {
-  padding: 100px 0;
+  padding: 70px 0;
   color: #000;
 }
 
@@ -965,12 +965,12 @@ html {
 }
 
 .footer h2 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .footer h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -979,7 +979,7 @@ html {
 .footer a {
   display: block;
   color: #55a37a;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   cursor: pointer;
   -webkit-transition: all .25s ease;
@@ -1051,6 +1051,13 @@ html {
     height: auto;
     margin-bottom: 80px;
   }
+  .works-inner-item h3 {
+    font-size: 16px;
+  }
+  .works-inner-item p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
   .works-inner-item-head {
     display: -ms-grid;
     display: grid;
@@ -1061,6 +1068,8 @@ html {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    width: 40px;
+    height: 40px;
   }
   .works .item-right:after,
   .works .item-bottom-right:after {
@@ -1071,7 +1080,7 @@ html {
   }
   .works .item-bottom:after,
   .works .item-left-bottom:after {
-    bottom: -22%;
+    bottom: -30%;
     height: 88px;
   }
   .works .item-left:after {
@@ -1100,8 +1109,8 @@ html {
     margin-right: 20px;
   }
   .contacts-first-item:after {
-    width: 30%;
-    right: -27%;
+    width: 35%;
+    right: -30%;
   }
 }
 
@@ -1112,13 +1121,8 @@ html {
   .header-bottom h1 br {
     display: none;
   }
-  .works-inner-item p {
-    font-size: 16px;
-    line-height: 22px;
-  }
   .works-inner-item h3 {
-    font-size: 18px;
-    line-height: 1.2;
+    line-height: 24px;
   }
   .works .item-right::after,
   .works .item-bottom-right::after {
@@ -1130,7 +1134,7 @@ html {
   .works .item-bottom:after,
   .works .item-left-bottom:after {
     bottom: -19%;
-    height: 105px;
+    height: 81px;
   }
   .works .item-left:after {
     width: 65px;
@@ -1167,11 +1171,6 @@ html {
   .footer-inner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  .works .item-bottom:after,
-  .works .item-left-bottom:after {
-    bottom: -20%;
-    height: 80px;
   }
 }
 
